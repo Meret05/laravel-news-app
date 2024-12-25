@@ -1,1 +1,15 @@
 * text=auto
+
+vendor/* linguist-vendored
+node_modules/* linguist-vendored
+
+*.php linguist-detectable=true
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+*.blade linguist-detectable=true
+*.ssas linguist-detectable=true
+*.html linguist-detectable=true
+ 	
+storage/* linguist-vendored
+bootstrap/cache/* linguist-vendored
+tests/* linguist-vendored
