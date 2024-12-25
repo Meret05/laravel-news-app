@@ -1,5 +1,10 @@
 * text=auto eol=lf
 
+*.php linguist-detectable=true
+*.js linguist-detectable=true
+*.css linguist-detectable=true
+vendor/* linguist-vendored
+node_modules/* linguist-vendored
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html
