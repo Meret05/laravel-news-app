@@ -1,7 +1,6 @@
-* text=auto eol=lf
+* text=auto
 
 *.php linguist-detectable=true
-*.js linguist-detectable=true
 *.css linguist-detectable=true
 vendor/* linguist-vendored
 node_modules/* linguist-vendored
