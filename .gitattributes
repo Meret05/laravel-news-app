@@ -1,15 +1,11 @@
-* text=auto
+* text=auto eol=lf
 
-vendor/* linguist-vendored
-node_modules/* linguist-vendored
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
 
-*.php linguist-detectable=true
-*.js linguist-detectable=true
-*.css linguist-detectable=true
-*.blade linguist-detectable=true
-*.ssas linguist-detectable=true
-*.html linguist-detectable=true
- 	
-storage/* linguist-vendored
-bootstrap/cache/* linguist-vendored
-tests/* linguist-vendored
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
