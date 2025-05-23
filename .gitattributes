@@ -8,6 +8,10 @@
 *.css linguist-vendored
 public/* linguist-vendored
 
+resources/views/auth/** linguist-detectable=false
+resources/views/layouts/** linguist-detectable=false
+resources/views/vendor/pagination/** linguist-detectable=false
+
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
